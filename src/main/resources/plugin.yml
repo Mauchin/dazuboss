@@ -1,0 +1,11 @@
+name: DazuBoss
+version: '${project.version}'
+main: me.mauchin.dazuboss.DazuBoss
+api-version: 1.18
+authors: [ Mauchin ]
+description: Lightweight Boss Plugin for Dazunaki
+commands:
+  dazuboss:
+    description: DazuBoss management
+    usage: /dazuboss
+    permission: dazuboss.admin
