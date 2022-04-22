@@ -62,7 +62,6 @@ public class DazuBossCommand implements CommandExecutor {
             DazuBossPlacement boss = DazuBoss.getPlugin(DazuBoss.class).getPlacements().get(args[1]);
             if (boss != null) {
                 boss.run();
-                sender.sendMessage(DazuBoss.prefix+DazuBoss.chatColor +" Successfully summoned "+ ChatColor.RESET +boss.bossName);
                 return true;
             }
             return false;
