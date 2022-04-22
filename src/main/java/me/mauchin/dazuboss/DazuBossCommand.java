@@ -123,6 +123,7 @@ public class DazuBossCommand implements CommandExecutor {
         }
         else if (args[0].equalsIgnoreCase("defeat")){
             DazuBoss.getPlugin(DazuBoss.class).getConfig().set("is_alive",false);
+            DazuBoss.getPlugin(DazuBoss.class).saveConfig();
             Bukkit.broadcastMessage(DazuBoss.prefix +
                     DazuBoss.chatColor + " The boss has been defeated!");
             return true;
