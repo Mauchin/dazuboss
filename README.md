@@ -2,6 +2,7 @@
 Boss plugin for Dazunaki
 
 ##How to use
+
 /dazuboss set_vanilla (key) (type) (nbt): register a new boss from vanilla nbt tags
 
 /dazuboss set_magic (key) (name): register a new boss from magic plugin
@@ -19,4 +20,5 @@ Boss plugin for Dazunaki
 /dazuboss defeat: let the plugin know that the boss is defeated. note that it does not actually kill the boss
 
 ##Permissions
+
 dazuboss.admin: grants an ability to execute the commands above
